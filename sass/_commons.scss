@@ -1,0 +1,38 @@
+html{
+    font-size: 62.5;
+}
+
+body{
+    background-color: rgb(255, 236, 217);
+    padding-top: 4px;
+} 
+
+
+h1{
+    color: $green;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    color: grey;
+}
+
+
+section p{
+    color: black;
+    font-family: 'Roboto', sans-serif;;
+    font-size:1rem;
+    line-height: 1.4rem;
+}
+
+.mainAll {
+    padding: $p-10;
+} 
+
+.img-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

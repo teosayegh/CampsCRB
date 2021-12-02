@@ -1,0 +1,30 @@
+.body-404{
+        background: linear-gradient(to bottom, $green, $orange);
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+    }
+    .img-404{
+        width: 50%;
+    }
+    .container-404{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+    }
+    .txt-404{
+        color: rgb(233, 238, 245);
+        font-size: 20px;
+        padding: 20px;
+    }
+    .btn-404{
+        padding: 13px 30px;
+        border-radius: 15px;
+        border: none;
+        text-decoration: none;
+        background: rgb(0, 87, 81);
+        color: white;
+    }
