@@ -37,7 +37,7 @@
         background-color:  $green;
         box-shadow: 0 0 5px #3a3a3a;
         padding: 15px;
-        margin: 0;
+        @include reset-m;
         color: white;
         font-weight: 400;
         font-size: 20px;
@@ -48,7 +48,7 @@
         box-shadow: 0 0 5px #3a3a3a;
         color: black;
         padding: 15px;   
-        margin: 0;
+        @include reset-m;
     }
 }
 

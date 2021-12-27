@@ -5,3 +5,15 @@ $orange: rgb(228, 131, 45);
 
 //PIXELS
 $p-10: 10px;
+
+// Mixing 
+@mixin reset-m {
+    margin: 0;
+}
+
+@mixin reset{
+    font-family: arial,sans-serif;
+    font-size: 1rem;
+    margin: 0;
+    padding: 0; 
+}
