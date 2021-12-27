@@ -1,3 +1,13 @@
+@media screen and (max-width: 320px){
+	header {
+		a{
+			img{
+				height: 40vh;
+				width: 40vh;
+			}
+		}
+	}
+}
 @media screen and (min-width: 768px){
 	nav{
 		flex-direction: row;
